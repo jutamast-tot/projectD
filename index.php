@@ -32,9 +32,9 @@
       str_ = convCelcius.toFixed(2) + "Celcius <p>" + convRankine.toFixed(2)+ "Rankine <p>" + convKelvin.toFixed(2) + "Rankine";
     }else if (typetemp == "Celcius"){ 
      convRankine = (temp * 1.8) + 491.67;
-     convKelvin =  temp + 273.15;
+     convKelvin = parseInt(temp) + 273.15;
      convFahrenheit = (temp * 1.8)+ 32;
-    str_ = convFahrenheit.toFixed(2) + "Fahrenheit <p>" + convRankine.toFixed(2)+ "Rankine <p>" + convKelvin + "Rankine";
+    str_ = convFahrenheit.toFixed(2) + "Fahrenheit <p>" + convRankine.toFixed(2)+ "Rankine <p>" + convKelvin.toFixed(2) + "Rankine";
     }
    
      //ert(typetemp + str_);
