@@ -1,8 +1,9 @@
-<<<<<<< HEAD
+#<<<<<<< HEAD
 
 testgitignore.txt
 password.txt
-=======
+
+#=======
 #my ignore
 
->>>>>>> 4a76b4c557af72a9319fd82896bafd94f4e98a7e
+#>>>>>>> 4a76b4c557af72a9319fd82896bafd94f4e98a7e
