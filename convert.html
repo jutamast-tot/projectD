@@ -1,0 +1,39 @@
+<h2>Currency Calculator</h2>
+<form>
+  <input type="number" id="amount" /> THB
+  <br />
+  convert to EURO
+  <br />
+  <button class="btn calculate-btn btn-primary mb-2">
+    Convert!
+  </button>
+</form>
+<div class="result">
+  <p>
+    <span class="given-amount"></span>
+    <span class="base-currency"></span>
+    <span class="final-result"></span>
+    <span class="second-currency"></span>
+  </p>
+</div>
+<script>
+  var baseCurrencyInput = document.getElementById("amount");
+  var amountInput = document.getElementById("amount");
+  var toShowAmount = document.querySelector(".given-amount");
+  var toShowBase = document.querySelector(".base-currency");
+  var toShowSecond = document.querySelector(".second-currency");
+  var toShowResult = document.querySelector(".final-result");
+  var euro = 35.8;
+  function convertCurrency(event) {
+    event.preventDefault();
+    var amount = amountInput.value;
+    var from = baseCurrencyInput.value;
+    var result = 0;
+    result = amount * euro;
+    toShowAmount.innerHTML = amount;
+    toShowBase.textContent = "THB = ";
+    toShowSecond.textContent = "EURO";
+    toShowResult.textContent = result;
+  }
+  btn.addEventListener("click", convertCurrency);
+</script>
