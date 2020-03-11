@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
 <title>แปลงสกุลเงิน</title>
-<body>
 
 <h2>แปลงสกุลเงิน</</h2>
 <p>
@@ -23,6 +22,6 @@
     
     }
 </script>
-
+<body>
 </body>
 </html>
