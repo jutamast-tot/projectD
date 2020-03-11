@@ -3,9 +3,8 @@
 <html>
 <title>แปลงสกุลเงิน</title>
 
-<h2>แปลงสกุลเงิน</</h2>
-<p>
-<h5>แปลงสกุลเงินวอน</h5> 
+<h2>แปลงสกุลเงิน</h2>
+<p> 
 <script>
 	function fucConverter(){
     
@@ -21,14 +20,15 @@
 	document.getElementById("resulT").innerHTML= result;
 }
 </script>
- <h5>แปลงสกุลเงินเยน</h5>  
- 
-<body>  
+   
+<body>
+<h5>แปลงสกุลเงินเยน</h5>  
   <label>จำนวน:</label>
 <input type="text" name="THB" id="THB1"/>
  <label>บาท</label> 
 <div id="resulT"></div>
 <input type="submit" value="Submit" onclick="funcCon();">
+<h5>แปลงสกุลเงินเยน</h5>
    <label>จำนวน:</label>
   <input type="number" id="txtnum">
   <label>บาท</label> 
