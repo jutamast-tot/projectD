@@ -12,5 +12,4 @@ function funcCon(){
 	document.getElementById("resulT").innerHTML= result;
 }
 </script>
-</body>
-</html>
+
